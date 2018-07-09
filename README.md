@@ -9,7 +9,15 @@ best: this turned out to be the interface with categories.
 
 This prototype was focused on database management and search functionality for the interface.
 
-# Python dependencies
+# Dependencies
 1. pytz
 2. Django
 3. spycopg2
+
+# Installation
+1. Install Python 3.6 and the listed dependencies
+2. Install database software, preferably PostgreSQL
+3. In settings.py, change the 'DATABASES' parameter to match your database
+4. In the project root, run Python with the command "manage.py migrate" to setup the database for use with the webserver
+5. Next, run "manage.py createsuperuser" and follow instructions to make an admin account for the Django admin interface
+6. Finally, run "manage.py runserver 0:80" to run the webserver from your local machine
