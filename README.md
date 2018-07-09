@@ -20,4 +20,4 @@ This prototype was focused on database management and search functionality for t
 3. In settings.py, change the 'DATABASES' parameters to match your database
 4. In the project root, run Python with the command "manage.py migrate" to setup the database for use with the webserver
 5. Next, run "manage.py createsuperuser" and follow instructions to make an admin account for the Django admin interface
-6. Finally, run "manage.py runserver 0:80" to run the webserver from your local machine
+6. Finally, run "manage.py runserver 0:80" to run the webserver from your local machine on port 80
