@@ -17,7 +17,8 @@ This prototype was focused on database management and search functionality for t
 # Installation
 1. Install Python 3.6 and the listed dependencies
 2. Install database software, preferably PostgreSQL
-3. In settings.py, change the 'DATABASES' parameters to match your database
+3. Download the source code from this repository
+3. In settings.py (root folder), change the 'DATABASES' parameters to match your database
 4. In the project root, run Python with the command "manage.py migrate" to setup the database for use with the webserver
 5. Next, run "manage.py createsuperuser" and follow instructions to make an admin account for the Django admin interface
 6. Finally, run "manage.py runserver 0:80" to run the webserver from your local machine on port 80
